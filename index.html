@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <title>豐山蝦子</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        #phaser-app{
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        canvas{
+            width: 100%;
+            height : 100%;
+        }
+    </style>
+    <!-- <style media="screen" type="text/css">
+    @font-face {
+        font-family: myFont;
+        src: url(assets/fonts/Noto_Sans_TC/NotoSansTC-Bold.otf);
+        font-weight: 400;
+    }
+    </style> -->
+
+    <!-- libraries -->
+    <script src="libs/phaser.min.js"></script>
+
+    <!-- prefabs -->
+    <script src="prefabs/Text.js"></script>
+    <script src="prefabs/helper.js"></script>
+    <script src="prefabs/Generator.js"></script>
+    <script src="prefabs/Entity.js"></script>
+    <script src="prefabs/player.js"></script>
+    <script src="prefabs/Button.js"></script>
+    <script src="prefabs/monster.js"></script>
+
+    <!-- scenes -->
+    <script src="scenes/boot.js"></script>
+    <script src="scenes/preload.js"></script>
+    <script src="scenes/menu.js"></script>
+    <script src="scenes/gameover.js"></script>
+    <script src="scenes/victory.js"></script>
+    <script src="scenes/play.js"></script>
+    
+
+    <!-- scripts -->
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div id="phaser-app"></div>
+</body>
+</html>
